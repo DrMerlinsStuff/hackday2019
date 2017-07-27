@@ -5,10 +5,17 @@ using Edwon.VR;
 public class GestureController : MonoBehaviour
 {
     public GameObject dough;
+
     void OnEnable()
     {
         GestureRecognizer.GestureDetectedEvent += OnGestureDetected;
         GestureRecognizer.GestureRejectedEvent += OnGestureRejected;
+    }
+
+    void OnDisable()
+    {
+        GestureRecognizer.GestureDetectedEvent -= OnGestureDetected;
+        GestureRecognizer.GestureRejectedEvent -= OnGestureRejected;
     }
 
     private void OnGestureDetected(string gestureName, double confidence, Handedness hand, bool isDouble = false)
