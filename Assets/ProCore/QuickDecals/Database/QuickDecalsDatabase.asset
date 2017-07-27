@@ -1,0 +1,679 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfeb40e027395d45a5545d3b06bcea6, type: 3}
+  m_Name: QuickDecalsDatabase
+  m_EditorClassIdentifier: 
+  decalGroups:
+  - decals:
+    - name: DecalsStain0003_1_S
+      id: 54bfc33ac70456d4aae804bd9b38f67f
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 0
+      orgIndex: 0
+      atlasGroup: 0
+      atlasIndex: 0
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 54bfc33ac70456d4aae804bd9b38f67f, type: 3}
+    - name: DecalsSubtle0023_1_S
+      id: c28851a4b783cfe4082c38f00131b16f
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 0
+      orgIndex: 1
+      atlasGroup: 0
+      atlasIndex: 1
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: c28851a4b783cfe4082c38f00131b16f, type: 3}
+    - name: DecalsStain0069_1_S
+      id: 9ad5b0b96466c104a86ef3effb9ea557
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 0
+      orgIndex: 2
+      atlasGroup: 0
+      atlasIndex: 2
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 9ad5b0b96466c104a86ef3effb9ea557, type: 3}
+    - name: DecalLeakingRusty0010_1_M
+      id: 749e33b734f504f4dbdeb00a81a2cd9c
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 0
+      orgIndex: 3
+      atlasGroup: 0
+      atlasIndex: 3
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 749e33b734f504f4dbdeb00a81a2cd9c, type: 3}
+    - name: DecalsFloor01
+      id: 3056caaa1077b4242a493e55f4716cdd
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 0
+      orgIndex: 4
+      atlasGroup: 0
+      atlasIndex: 4
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 3056caaa1077b4242a493e55f4716cdd, type: 3}
+    name: 
+    shader: {fileID: 0}
+    isPacked: 0
+    material: {fileID: 0}
+    maxAtlasSize: 0
+    padding: 0
+  - decals:
+    - name: DecalsDamageFloor0009_1_M
+      id: c835d6dfb9fedad449ba6a7a74266ed6
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 1
+      orgIndex: 0
+      atlasGroup: 0
+      atlasIndex: 5
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: c835d6dfb9fedad449ba6a7a74266ed6, type: 3}
+    - name: DecalsFloor03
+      id: 61e6daf1b434e4944addc7b2c433733c
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 1
+      orgIndex: 1
+      atlasGroup: 0
+      atlasIndex: 6
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 61e6daf1b434e4944addc7b2c433733c, type: 3}
+    - name: DecalsDamageBrick0007_1_S
+      id: d8fe5562bdd2e6e44a2bd3286fd9c178
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 1
+      orgIndex: 2
+      atlasGroup: 0
+      atlasIndex: 7
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: d8fe5562bdd2e6e44a2bd3286fd9c178, type: 3}
+    - name: DecalsDamageBrick0015_1_M
+      id: cb865c4171e47f1409fbdcd03865652a
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 1
+      orgIndex: 3
+      atlasGroup: 0
+      atlasIndex: 8
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: cb865c4171e47f1409fbdcd03865652a, type: 3}
+    name: 
+    shader: {fileID: 0}
+    isPacked: 0
+    material: {fileID: 0}
+    maxAtlasSize: 0
+    padding: 0
+  - decals:
+    - name: DecalsDamageBrick0019_1_S
+      id: 0bb4b85da5c497d4197ff9f1e012b441
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 2
+      orgIndex: 0
+      atlasGroup: 0
+      atlasIndex: 9
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 0bb4b85da5c497d4197ff9f1e012b441, type: 3}
+    - name: DecalsDamagePlaster0029_1_S
+      id: 4224d4985c4980941b739c52bfb9a132
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 2
+      orgIndex: 1
+      atlasGroup: 0
+      atlasIndex: 10
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 4224d4985c4980941b739c52bfb9a132, type: 3}
+    - name: Graffiti_02
+      id: 13700abec061e7048a9ac230b0f4f89a
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 2
+      orgIndex: 2
+      atlasGroup: 0
+      atlasIndex: 11
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 13700abec061e7048a9ac230b0f4f89a, type: 3}
+    - name: Graffiti_01
+      id: 76806c13b521f49459d02efc7a687339
+      isPacked: 0
+      materialId: 
+      rotation: {x: -45, y: 45, z: 0}
+      scale: {x: 0.8, y: 1.2, z: 1}
+      atlasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      orgGroup: 2
+      orgIndex: 3
+      atlasGroup: 0
+      atlasIndex: 12
+      rotationPlacement: 0
+      scalePlacement: 0
+      texture: {fileID: 2800000, guid: 76806c13b521f49459d02efc7a687339, type: 3}
+    name: 
+    shader: {fileID: 0}
+    isPacked: 0
+    material: {fileID: 0}
+    maxAtlasSize: 0
+    padding: 0
+  s_decals:
+  - '{
+
+    DecalsStain0003_1_S
+
+    54bfc33ac70456d4aae804bd9b38f67f
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    0
+
+    0
+
+    0
+
+    0
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsSubtle0023_1_S
+
+    c28851a4b783cfe4082c38f00131b16f
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    0
+
+    0
+
+    1
+
+    1
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsStain0069_1_S
+
+    9ad5b0b96466c104a86ef3effb9ea557
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    0
+
+    0
+
+    2
+
+    2
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalLeakingRusty0010_1_M
+
+    749e33b734f504f4dbdeb00a81a2cd9c
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    0
+
+    0
+
+    3
+
+    3
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsFloor01
+
+    3056caaa1077b4242a493e55f4716cdd
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    0
+
+    0
+
+    4
+
+    4
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsDamageFloor0009_1_M
+
+    c835d6dfb9fedad449ba6a7a74266ed6
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    1
+
+    0
+
+    0
+
+    5
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsFloor03
+
+    61e6daf1b434e4944addc7b2c433733c
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    1
+
+    0
+
+    1
+
+    6
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsDamageBrick0007_1_S
+
+    d8fe5562bdd2e6e44a2bd3286fd9c178
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    1
+
+    0
+
+    2
+
+    7
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsDamageBrick0015_1_M
+
+    cb865c4171e47f1409fbdcd03865652a
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    1
+
+    0
+
+    3
+
+    8
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsDamageBrick0019_1_S
+
+    0bb4b85da5c497d4197ff9f1e012b441
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    2
+
+    0
+
+    0
+
+    9
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    DecalsDamagePlaster0029_1_S
+
+    4224d4985c4980941b739c52bfb9a132
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    2
+
+    0
+
+    1
+
+    10
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    Graffiti_02
+
+    13700abec061e7048a9ac230b0f4f89a
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    2
+
+    0
+
+    2
+
+    11
+
+    0
+
+    0
+
+    False
+
+    }'
+  - '{
+
+    Graffiti_01
+
+    76806c13b521f49459d02efc7a687339
+
+    (-45.0, 45.0, 0.0)
+
+    (0.8, 1.2, 1.0)
+
+    (0, 0, 1, 1)
+
+    2
+
+    0
+
+    3
+
+    12
+
+    0
+
+    0
+
+    False
+
+    }'
+  names:
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  - DecalsStain0003_1_S
+  isPacked: 00000000000000000000000000
+  materials:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  shaders:
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  - Legacy Shaders/Transparent/Diffuse
+  atlasSize: 00040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000
+  padding: 03000000030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
