@@ -26,7 +26,7 @@ public class GestureController : MonoBehaviour
             case "Dough Top Right":
             case "Dough Bottom Left":
             case "Dough Bottom Right":
-                Instantiate(dough, transform.position, transform.rotation);
+                Instantiate(dough, transform.position, Quaternion.identity);
                 Debug.Log("Building Dough");
                 break;
             
