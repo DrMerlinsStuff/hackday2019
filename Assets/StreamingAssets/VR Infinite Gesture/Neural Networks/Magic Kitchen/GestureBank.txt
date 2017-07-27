@@ -1,0 +1,28 @@
+{
+    "gestures": [
+        {
+            "name": "Dough",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 0
+        },
+        {
+            "name": "Sauce",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 0
+        },
+        {
+            "name": "Cheese",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 0
+        },
+        {
+            "name": "Pepperoni",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 0
+        }
+    ]
+}

@@ -20,24 +20,41 @@ MonoBehaviour:
   minimumGestureAxisLength: 0.1
   beginInDetectMode: 0
   vrGestureDetectType: 0
-  currentNeuralNet: Neural Net 1
+  currentNeuralNet: Magic Kitchen
   lastNeuralNet: Neural Net 1
-  neuralNets: []
+  neuralNets:
+  - Magic Kitchen
   gestureBank:
-  - name: Gesture 1
+  - name: Dough
     hand: 1
     isSynchronous: 0
-    exampleCount: 10
-  - name: Gesture 2
+    exampleCount: 0
+  - name: Sauce
     hand: 1
     isSynchronous: 0
-    exampleCount: 10
+    exampleCount: 0
+  - name: Cheese
+    hand: 1
+    isSynchronous: 0
+    exampleCount: 0
+  - name: Pepperoni
+    hand: 1
+    isSynchronous: 0
+    exampleCount: 0
   gestureBankPreEdit:
-  - name: Gesture 1
+  - name: Dough
     hand: 1
     isSynchronous: 0
-    exampleCount: 10
-  - name: Gesture 2
+    exampleCount: 0
+  - name: Sauce
+    hand: 1
+    isSynchronous: 0
+    exampleCount: 0
+  - name: Cheese
+    hand: 1
+    isSynchronous: 0
+    exampleCount: 0
+  - name: Pepperoni
     hand: 1
     isSynchronous: 0
     exampleCount: 0
