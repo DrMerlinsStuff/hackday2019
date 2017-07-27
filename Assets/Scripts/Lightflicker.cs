@@ -21,9 +21,9 @@ public class Lightflicker : MonoBehaviour {
     void Update ()
     {
         if (direction)
-            intensity += Time.deltaTime * 2;
+            intensity += Time.deltaTime;
         else
-            intensity -= Time.deltaTime * 2;
+            intensity -= Time.deltaTime;
         if (intensity > max_intensity)
             direction = false;
         else if (intensity < min_intensity)
