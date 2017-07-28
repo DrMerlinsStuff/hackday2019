@@ -6,10 +6,32 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: peperoni
+    100004: pizzacrust
+    100006: sauce
+    100008: saucepath
+    100010: Toppings
     400000: //RootNode
+    400002: peperoni
+    400004: pizzacrust
+    400006: sauce
+    400008: saucepath
+    400010: Toppings
     2300000: //RootNode
+    2300002: peperoni
+    2300004: pizzacrust
+    2300006: sauce
+    2300008: Toppings
     3300000: //RootNode
+    3300002: peperoni
+    3300004: pizzacrust
+    3300006: sauce
+    3300008: Toppings
     4300000: Cylinder001
+    4300002: pizzacrust
+    4300004: Toppings
+    4300006: peperoni
+    4300008: sauce
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -21,6 +43,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
