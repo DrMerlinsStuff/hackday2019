@@ -6,6 +6,7 @@ using VRTK;
 public class GameController : MonoBehaviour
 {
     public GameObject dough;
+    public GameObject sauce;
 
     private VRTK_InteractGrab leftControllerGrab;
     private VRTK_InteractGrab rightControllerGrab;
@@ -27,6 +28,7 @@ public class GameController : MonoBehaviour
         rightControllerGrab = SceneObjects.RightController.GetComponent<VRTK_InteractGrab>();
 
         ObjectFactory.CreateDoughs(dough);
+        ObjectFactory.CreateSauces(sauce);
     }
 
     //Need to figure out how to OnDisable to unsubscribe from events

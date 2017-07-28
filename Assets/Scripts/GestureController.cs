@@ -30,6 +30,10 @@ public class GestureController : MonoBehaviour
                 ObjectFactory.GetNextDough(handObject.transform);
                 Debug.Log("Building Dough");
                 break;
+            case "Sauce 3":
+            case "Sauce S":
+                ObjectFactory.GetNextSauce(handObject.transform);
+                break;
             
             default:
                 Debug.Log("Recognized something else");
