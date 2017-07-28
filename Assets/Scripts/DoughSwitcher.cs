@@ -15,16 +15,13 @@ public class DoughSwitcher : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        TurnOnADough();
         v_io = GetComponent<VRTK_InteractableObject>();
     }
 
     void TurnOnADough()
     {
-        Debug.LogError("This is a dough " + doughIndex);
-        foreach (GameObject go in doughs)
-            go.SetActive(false);
-
+        doughs[doughIndex].SetActive(false);
+        doughIndex++;
         doughs[doughIndex].SetActive(true);
     }
 
@@ -39,12 +36,13 @@ public class DoughSwitcher : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (canChange && other.name == "DoughSwitchingTrigger")
+        if (!canChange || doughIndex >= doughs.Length - 1)
+            return;
+
+        if (other.name == "DoughSwitchingTrigger")
         {
-            if (doughIndex < doughs.Length - 1)
-                doughIndex++;
-            canChange = false;
             TurnOnADough();
+            canChange = false;
         }
     }
 }

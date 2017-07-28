@@ -47,10 +47,8 @@ public static class SceneObjects
         {
             if(leftControllerEvents == null)
             {
-                Debug.Log("Making it");
                 leftControllerEvents = LeftController.GetComponent<VRTK_ControllerEvents>();
             }
-            Debug.Log("just doing whatever");
             return leftControllerEvents;
         }
     }

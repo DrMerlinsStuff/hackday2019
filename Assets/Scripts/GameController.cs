@@ -5,7 +5,10 @@ using VRTK;
 
 public class GameController : MonoBehaviour
 {
-    private GameObject leftControllerEvents;
+    public GameObject dough;
+
+    private VRTK_InteractGrab leftControllerGrab;
+    private VRTK_InteractGrab rightControllerGrab;
     // Use this for initialization
 
     void Awake()
@@ -20,13 +23,24 @@ public class GameController : MonoBehaviour
 
     void OnEnable()
     {
-        SceneObjects.GestureRig.enabled = false;
+        leftControllerGrab = SceneObjects.LeftController.GetComponent<VRTK_InteractGrab>();
+        rightControllerGrab = SceneObjects.RightController.GetComponent<VRTK_InteractGrab>();
+
+        ObjectFactory.CreateDoughs(dough);
     }
 
     //Need to figure out how to OnDisable to unsubscribe from events
 
     void Update()
     {
+        if(leftControllerGrab.GetGrabbedObject() != null || rightControllerGrab.GetGrabbedObject() != null)
+        {
+            SceneObjects.GestureRig.enabled = false;
+        }
+        else
+        {
+            SceneObjects.GestureRig.enabled = true;
+        }
     }
 
 

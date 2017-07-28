@@ -195,6 +195,7 @@ namespace Edwon.VR.Gesture
                 LineCaught(currentCapturedLine);
                 currentCapturedLine.RemoveRange(0, currentCapturedLine.Count);
                 currentCapturedLine.Clear();
+                myTrail.ClearTrail();
 
                 if (StopCaptureEvent != null)
                     StopCaptureEvent();
