@@ -10,6 +10,7 @@ TagManager:
   - sauce
   - topping_sauce
   - some_random_tag
+  - cheese
   layers:
   - Default
   - TransparentFX

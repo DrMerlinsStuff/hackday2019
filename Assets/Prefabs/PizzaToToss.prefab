@@ -605,3 +605,6 @@ MonoBehaviour:
   - {fileID: 1892891988562094}
   wasGrabbed: 0
   canChange: 0
+  cheesesToCheesy: 10
+  pizzaToppings: {fileID: 23444376741487836}
+  cheesyTop: {fileID: 2100000, guid: e9e9f3d1605a20449ab2f9b97f543793, type: 2}

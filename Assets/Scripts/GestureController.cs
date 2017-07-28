@@ -46,7 +46,7 @@ public class GestureController : MonoBehaviour
 
     IEnumerator toggleGravity(GameObject go, bool on_off)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.3f);
         go.GetComponent<Rigidbody>().useGravity = on_off;
     }
 

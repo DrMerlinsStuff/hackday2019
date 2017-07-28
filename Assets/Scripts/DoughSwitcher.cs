@@ -13,6 +13,10 @@ public class DoughSwitcher : MonoBehaviour
     VRTK_InteractableObject v_io;
     public bool wasGrabbed;
     public bool canChange = false;
+    public int cheesesToCheesy = 10;
+    public MeshRenderer pizzaToppings;
+    public Material cheesyTop;
+    int cheesesHit = 0;
 
     // Use this for initialization
     void Start()
@@ -32,7 +36,7 @@ public class DoughSwitcher : MonoBehaviour
     {
         if (wasGrabbed & !v_io.IsGrabbed()) //have just thrown it        
             canChange = true;
-        
+
         wasGrabbed = v_io.IsGrabbed();
     }
 
@@ -51,9 +55,24 @@ public class DoughSwitcher : MonoBehaviour
     {
         if (collision.collider.CompareTag("sauce") && doughIndex == 3)
         {
-            var children = gameObject.GetComponentsInChildren(typeof(MeshRenderer), true).Select(c => c as MeshRenderer).ToList();
-            children.Single(s => s.CompareTag("topping_sauce")).enabled = true;
+
+            pizzaToppings.enabled = true;
+            //var children = gameObject.GetComponentsInChildren(typeof(MeshRenderer), true).Select(c => c as MeshRenderer).ToList();
+            //children.Single(s => s.CompareTag("topping_sauce")).enabled = true;
             collision.collider.gameObject.transform.position = new Vector3(50, 0, 0);
+            collision.collider.GetComponent<Rigidbody>().useGravity = false;
+        }
+
+        if (collision.collider.CompareTag("cheese") && doughIndex == 3)
+        {
+            Debug.Log("CHeeeeeessssss");
+            cheesesHit++;
+            if(cheesesHit >= cheesesToCheesy)
+            {
+                pizzaToppings.material = cheesyTop;
+            }
+            collision.collider.gameObject.transform.position = new Vector3(50, 0, 0);
+            collision.collider.GetComponent<Rigidbody>().useGravity = false;
         }
     }
 }
