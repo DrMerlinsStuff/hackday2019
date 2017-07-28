@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using Edwon.VR.Gesture;
 using Edwon.VR;
+using System.Collections;
 
 public class GestureController : MonoBehaviour
 {
@@ -31,12 +32,22 @@ public class GestureController : MonoBehaviour
                 break;
             case "Sauce 3":
             case "Sauce S":
-                ObjectFactory.GetNextSauce(handObject.transform);
+                StartCoroutine(toggleGravity(ObjectFactory.GetNextSauce(handObject.transform), true));
                 break;
-            
+            case "Cheese":
+                StartCoroutine(toggleGravity(ObjectFactory.GetNextCheese(handObject.transform), true));
+                break;
+
+
             default:
                 break;
         }
+    }
+
+    IEnumerator toggleGravity(GameObject go, bool on_off)
+    {
+        yield return new WaitForSeconds(1);
+        go.GetComponent<Rigidbody>().useGravity = on_off;
     }
 
     private void OnGestureRejected(string error, string gestureName = null, double confidence = 0)

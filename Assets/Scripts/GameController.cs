@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public GameObject dough;
     public GameObject sauce;
+    public GameObject cheese;
 
     private VRTK_InteractGrab leftControllerGrab;
     private VRTK_InteractGrab rightControllerGrab;
@@ -29,6 +30,7 @@ public class GameController : MonoBehaviour
 
         ObjectFactory.CreateDoughs(dough);
         ObjectFactory.CreateSauces(sauce);
+        ObjectFactory.CreateCheeses(cheese);
     }
 
     //Need to figure out how to OnDisable to unsubscribe from events
