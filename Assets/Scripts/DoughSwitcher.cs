@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using VRTK;
 
 public class DoughSwitcher : MonoBehaviour
 {
+    public Texture sauce;
 
     public int doughIndex = 0;
     public GameObject[] doughs = new GameObject[4];
@@ -49,7 +51,8 @@ public class DoughSwitcher : MonoBehaviour
     {
         if (collision.collider.CompareTag("sauce") && doughIndex == 3)
         {
-
+            var children = gameObject.GetComponentsInChildren(typeof(MeshRenderer), true).Select(c => c as MeshRenderer).ToList();
+            children.Single(s => s.CompareTag("topping_sauce")).enabled = true;
             collision.collider.gameObject.transform.position = new Vector3(50, 0, 0);
         }
     }

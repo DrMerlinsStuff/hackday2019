@@ -8,6 +8,8 @@ TagManager:
   - FxTemporaire
   - projectile
   - sauce
+  - topping_sauce
+  - some_random_tag
   layers:
   - Default
   - TransparentFX
