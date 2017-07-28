@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 4778067994207496}
   - component: {fileID: 33342702141447358}
   - component: {fileID: 23186859779880246}
-  - component: {fileID: 95441570089925768}
   - component: {fileID: 64997800646472362}
   m_Layer: 0
   m_Name: pizzacrust (1)
@@ -94,7 +93,6 @@ GameObject:
   - component: {fileID: 4050090338763172}
   - component: {fileID: 33166557866805106}
   - component: {fileID: 23391520334390448}
-  - component: {fileID: 95567151702323384}
   - component: {fileID: 64623551807821882}
   m_Layer: 0
   m_Name: pizzacrust (2)
@@ -306,14 +304,14 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1955377615565822}
-  m_Mesh: {fileID: 4300000, guid: be21329027e6b3d49b0389702288b544, type: 3}
+  m_Mesh: {fileID: 4300002, guid: be21329027e6b3d49b0389702288b544, type: 3}
 --- !u!33 &33342702141447358
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1461234719937310}
-  m_Mesh: {fileID: 4300000, guid: be21329027e6b3d49b0389702288b544, type: 3}
+  m_Mesh: {fileID: 4300002, guid: be21329027e6b3d49b0389702288b544, type: 3}
 --- !u!33 &33359991626726838
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -356,7 +354,7 @@ MeshCollider:
   m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: be21329027e6b3d49b0389702288b544, type: 3}
+  m_Mesh: {fileID: 4300002, guid: be21329027e6b3d49b0389702288b544, type: 3}
 --- !u!64 &64734711677275984
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -384,7 +382,7 @@ MeshCollider:
   m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: be21329027e6b3d49b0389702288b544, type: 3}
+  m_Mesh: {fileID: 4300002, guid: be21329027e6b3d49b0389702288b544, type: 3}
 --- !u!64 &64999012677401662
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -399,40 +397,6 @@ MeshCollider:
   m_InflateMesh: 1
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 3ae19262ece05504a8329458b8e328c5, type: 3}
---- !u!95 &95441570089925768
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1461234719937310}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: be21329027e6b3d49b0389702288b544, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95567151702323384
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1955377615565822}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: be21329027e6b3d49b0389702288b544, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114188815131398680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -479,6 +443,6 @@ MonoBehaviour:
   - {fileID: 1944252554219356}
   - {fileID: 1380155322667184}
   - {fileID: 1461234719937310}
-  - {fileID: 1955377615565822}
+  - {fileID: 1545289954474522, guid: 55e6f77bb9d6b3e4d972506c028e97fb, type: 2}
   wasGrabbed: 0
   canChange: 0

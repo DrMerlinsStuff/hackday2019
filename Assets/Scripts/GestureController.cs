@@ -28,7 +28,6 @@ public class GestureController : MonoBehaviour
             case "Dough Bottom Left":
             case "Dough Bottom Right":
                 ObjectFactory.GetNextDough(handObject.transform);
-                Debug.Log("Building Dough");
                 break;
             case "Sauce 3":
             case "Sauce S":
@@ -36,13 +35,12 @@ public class GestureController : MonoBehaviour
                 break;
             
             default:
-                Debug.Log("Recognized something else");
                 break;
         }
     }
 
     private void OnGestureRejected(string error, string gestureName = null, double confidence = 0)
     {
-        Debug.Log("You aint no dough");
+        Debug.Log("You drew something I don't recognize");
     }
 }

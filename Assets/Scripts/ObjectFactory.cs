@@ -20,7 +20,7 @@ public static class ObjectFactory
         doughIndex = 0;
     }
 
-    public static void CreateSauces(GameObject sauce, int count = 4)
+    public static void CreateSauces(GameObject sauce, int count = 10)
     {
         sauces = Enumerable.Range(1, count).Select(x => GameObject.Instantiate(sauce, new Vector3(50, 0, 0), Quaternion.identity)).ToList();
         sauceCount = count;
@@ -33,7 +33,6 @@ public static class ObjectFactory
         dough.transform.position = parent.position;
         dough.transform.rotation = Quaternion.identity;
         doughIndex = (doughIndex + 1) % doughCount;
-        Debug.Log("Dough index: " + doughIndex + " Dough Count: " + doughCount);
         return dough;
     }
 
@@ -41,9 +40,9 @@ public static class ObjectFactory
     {
         var sauce = sauces[sauceIndex];
         sauce.transform.position = parent.position;
-        sauce.transform.rotation = Quaternion.identity;
+        sauce.transform.rotation = parent.rotation;
+        sauce.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         sauceIndex = (sauceIndex + 1) % sauceCount;
-        Debug.Log("Sauce index: " + sauceIndex + " Sauce Count: " + sauceCount);
         return sauce;
     }
 }

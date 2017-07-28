@@ -45,4 +45,12 @@ public class DoughSwitcher : MonoBehaviour
             canChange = false;
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("sauce") && doughIndex == 3)
+        {
+
+            collision.collider.gameObject.transform.position = new Vector3(50, 0, 0);
+        }
+    }
 }
