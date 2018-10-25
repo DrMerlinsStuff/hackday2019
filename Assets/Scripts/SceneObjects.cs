@@ -1,31 +1,15 @@
-﻿using Edwon.VR;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using VRTK;
 
 public static class SceneObjects
 {
-    private static VRGestureRig gestureRig;
     private static GameObject leftController;
     private static GameObject rightController;
     private static VRTK_ControllerEvents leftControllerEvents;
     private static VRTK_ControllerEvents rightControllerEvents;
 
 
-    public static VRGestureRig GestureRig
-    {
-        get
-        {
-            if (gestureRig == null)
-            {
-                //Dont know of a better way than the .Find()  :( 
-                gestureRig = GameObject.Find("[CameraRig]").GetComponent<VRGestureRig>();
-            }
 
-            return gestureRig;
-        }
-    }
 
     public static GameObject LeftController
     {
