@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ChangeATire.unity
+    guid: c9c89b4c6721f8a4f837b5cc2b09d3a9
+  m_configObjects: {}

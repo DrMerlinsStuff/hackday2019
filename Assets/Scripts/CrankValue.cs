@@ -8,9 +8,13 @@ public class CrankValue : MonoBehaviour
 {
 
     public VRTK_Knob knob;
-    public GameObject jack;
+    public GameObject jack;   
     public Vector3 growSize;
-    float currentValue = 0;
+    public float currentValue = 0;
+    public float percent = 0f;
+    public Animator jackAnim;
+
+
 
 	// Use this for initialization
 	void Start ()
@@ -20,8 +24,8 @@ public class CrankValue : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        jackAnim.Play("ScrewUpDown", 0, percent);        
+    }
 
 
 
@@ -29,18 +33,17 @@ public class CrankValue : MonoBehaviour
     {
         var maxValue = 1000;
 
-        if (currentValue / maxValue < 1 && currentValue++ < maxValue)
-        {
-            jack.transform.localScale += growSize;
+        percent = currentValue / maxValue;
+        if (percent < 1 && currentValue++ < maxValue)
+        {            
+            jack.transform.localScale += growSize;           
+            //Debug.LogError("float " + percent);
         }
         else
-        {
+        {            
             return;
         }
-
-
-        //Debug.unityLogger.Log(knob.GetValue());
+      
         Debug.unityLogger.Log(currentValue / maxValue);
-        //Debug.unityLogger.Log(jack.transform.localScale);
     }
 }
