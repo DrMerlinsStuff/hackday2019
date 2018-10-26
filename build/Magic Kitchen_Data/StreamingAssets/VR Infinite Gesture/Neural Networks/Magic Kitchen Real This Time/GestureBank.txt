@@ -1,0 +1,70 @@
+{
+    "gestures": [
+        {
+            "name": "Dough Top Left",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 40
+        },
+        {
+            "name": "Dough Top Right",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 40
+        },
+        {
+            "name": "Dough Bottom Left",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 39
+        },
+        {
+            "name": "Dough Bottom Right",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 40
+        },
+        {
+            "name": "Pepperoni Top Left",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 40
+        },
+        {
+            "name": "Pepperoni Top Right",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 38
+        },
+        {
+            "name": "Pepperoni Bottom Left",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 42
+        },
+        {
+            "name": "Pepperoni Bottom Right",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 40
+        },
+        {
+            "name": "Sauce 3",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 39
+        },
+        {
+            "name": "Sauce S",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 42
+        },
+        {
+            "name": "Cheese",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 43
+        }
+    ]
+}

@@ -6,6 +6,7 @@ using UnityEngine.Video;
 public class DisableAfterVideo : MonoBehaviour {
 
     public VideoPlayer vp;
+    public GameObject nextVideo;
 	// Use this for initialization
 	void Start () {
         vp.loopPointReached += Disable;
@@ -19,6 +20,7 @@ public class DisableAfterVideo : MonoBehaviour {
     void Disable(UnityEngine.Video.VideoPlayer vp)
     {
         gameObject.SetActive(false);
+        nextVideo.SetActive(true);
     }
 
 }

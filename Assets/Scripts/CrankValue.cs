@@ -14,7 +14,9 @@ public class CrankValue : MonoBehaviour
     public float percent = 0f;
     public Animator jackAnim;
     public Animator carAnimator;
+    public AudioSource audioSource;
 
+    float oldPercent =0f;
 
 
 	// Use this for initialization
@@ -27,6 +29,12 @@ public class CrankValue : MonoBehaviour
 	void Update () {
         jackAnim.Play("ScrewUpDown", 0, percent);
         carAnimator.Play("carGoUp",0, percent);
+        if (percent > oldPercent + .03f)
+        {
+            oldPercent = percent;
+            audioSource.Play();
+        }
+
     }
 
 
