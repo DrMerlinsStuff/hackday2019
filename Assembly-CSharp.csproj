@@ -54,14 +54,42 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\Unity2018.2.13f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:\Program Files\Unity2018.2.13f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\JackIt.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_BrushMirror.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_ComponentIndex.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_Culling.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_Direction.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_MeshChannel.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_MirrorCoordinateSpace.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_ModelSource.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_PaintMode.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_PlacementDirection.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Enum\z_SelectionRenderState.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_AdditionalVertexStreams.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_OverlayRenderer.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\MonoBehaviour\z_ZoomOverride.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_AttributeLayout.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_ColorMask.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_CommonEdge.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_Edge.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_GradientSerializer.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_IHasDefault.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_IValid.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_Mesh.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_RndVec3.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_SplatSet.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Type\z_SplatWeight.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Math.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_MeshUtility.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Util.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Vector.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Instantiation\ProBuilderInstantiate.cs" />
@@ -450,327 +478,357 @@
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Pepperoni Bottom Right.txt" />
     <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Pepperoni Bottom Left.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend_SfSrc.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile.shader" />
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\ProCore\Polybrush\README.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy_SfSrc.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Pepperoni Top Left.txt" />
     <None Include="Assets\ProCore\QuickEdit\About\pc_AboutEntry_QuickEdit.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendHeight.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor.shader" />
     <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Magic Kitchen Real This Time.txt" />
     <None Include="Assets\ProCore\ProGroups\About\changelog.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendHeight_SfSrc.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Sauce S.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Pepperoni Top Right.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Dough Bottom Left.txt" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Dough Top Right.txt" />
     <None Include="Assets\Textures\mahogfloor-Unity\mahogfloor-Unity\About these PBR files.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_BaseWithDecals.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+    <None Include="Assets\ProCore\Polybrush\ThirdPartyLicenses.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile_SfSrc.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Pepperoni Bottom Right.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
     <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
     <None Include="Assets\ProCore\QuickEdit\About\changelog.txt" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
     <None Include="Assets\ProCoreUtilityBundle\_README.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Assets\Car Engine Sounds - i6 German Free\Demo_Audio\ReadMe.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
     <None Include="Assets\Textures\pockedconcrete1-Unity\About these PBR files.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Dough Bottom Right.txt" />
     <None Include="Assets\ProCore\QuickEdit\Shader\qe_FaceShader.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_VertexBillboard.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Pepperoni Bottom Left.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Cheese.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlender.shader" />
     <None Include="Assets\ProCore\ProGroups\About\pc_AboutEntry_ProGroups.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Pepperoni Top Right.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Dough Bottom Left.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend_WithMetaData.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Sauce S.txt" />
     <None Include="Assets\ProCore\QuickBrush\Docs\ChangeLog.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\GestureBank.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlendAndSnow.shader" />
     <None Include="Assets\ProCore\QuickDecals\About\changelog.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Dough Top Right.txt" />
     <None Include="Assets\ProCore\QuickDecals\About\pc_AboutEntry_QuickDecals.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_StandardVertexColor.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Dough Top Left.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Sauce 3.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\Noise.cginc" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\GestureBank.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Sauce 3.txt" />
+    <None Include="Assets\ProCore\Polybrush\Font\SIL Open Font License.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Cheese.txt" />
     <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
     <None Include="Assets\Textures\bamboo-wood-semigloss-Unity\bamboo-wood-semigloss-Unity\About these PBR files.txt" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Pepperoni Top Left.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_DiffuseVertexColor.shader" />
     <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlender_SfSrc.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp_SfSrc.shader" />
     <None Include="Assets\Textures\oakfloor_fb1-Unity\oakfloor_fb1-Unity\About these PBR files.txt" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\Car Engine Sounds - i6 German Free\Assets for Realistic Engine Sounds\ReadMe.txt" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor_SfSrc.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Gestures\Dough Top Left.txt" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen Real This Time\Gestures\Dough Bottom Right.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_Overlay.shader" />
     <None Include="Assets\ProCore\QuickEdit\Shader\qe_VertexShader.shader" />
     <None Include="Assets\ProCore\ProBuilder\About\Credits.txt" />
+    <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate_SfSrc.shader" />
     <None Include="Assets\StreamingAssets\VR Infinite Gesture\Neural Networks\Magic Kitchen\Magic Kitchen.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/HackDay2018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/HackDay2018/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/HackDay2018/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/HackDay2018/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.BaselibModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CloudWebServicesModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.FacebookModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.FileSystemHttpModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticlesLegacyModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StyleSheetsModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TimelineModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Locator">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Timeline">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>E:/HackDay2018/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>E:/HackDay2018/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="KDTree">
-      <HintPath>E:/HackDay2018/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+      <HintPath>C:/dev/test/HackDay2018/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/merlin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/ps-dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/merlin/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/ps-dev/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Boo.Lang">
-      <HintPath>D:/Program Files/Unity2018.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

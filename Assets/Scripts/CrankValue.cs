@@ -13,6 +13,7 @@ public class CrankValue : MonoBehaviour
     public float currentValue = 0;
     public float percent = 0f;
     public Animator jackAnim;
+    public Animator carAnimator;
 
 
 
@@ -24,7 +25,8 @@ public class CrankValue : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-        jackAnim.Play("ScrewUpDown", 0, percent);        
+        jackAnim.Play("ScrewUpDown", 0, percent);
+        carAnimator.Play("carGoUp",0, percent);
     }
 
 
@@ -36,7 +38,7 @@ public class CrankValue : MonoBehaviour
         percent = currentValue / maxValue;
         if (percent < 1 && currentValue++ < maxValue)
         {            
-            jack.transform.localScale += growSize;           
+            //jack.transform.localScale += growSize;           
             //Debug.LogError("float " + percent);
         }
         else
