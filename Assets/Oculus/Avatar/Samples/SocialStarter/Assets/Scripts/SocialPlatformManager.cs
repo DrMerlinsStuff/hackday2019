@@ -12,17 +12,17 @@ using Oculus.Platform.Models;
 // Service running in your device.
 public class SocialPlatformManager : MonoBehaviour
 {
-    private static readonly Vector3 START_ROTATION_ONE = new Vector3(0, 180, 0);
-    private static readonly Vector3 START_POSITION_ONE = new Vector3(0, 4, 5);
+    private static readonly Vector3 START_ROTATION_ONE = new Vector3(0, 0, 0);
+    private static readonly Vector3 START_POSITION_ONE = new Vector3(.314f, -.6f, .472f);
 
     private static readonly Vector3 START_ROTATION_TWO = new Vector3(0, 0, 0);
-    private static readonly Vector3 START_POSITION_TWO = new Vector3(0, 4, -5);
+    private static readonly Vector3 START_POSITION_TWO = new Vector3(1.55f, -.6f, -1.5f);
 
-    private static readonly Vector3 START_ROTATION_THREE = new Vector3(0, 270, 0);
-    private static readonly Vector3 START_POSITION_THREE = new Vector3(5, 4, 0);
+    private static readonly Vector3 START_ROTATION_THREE = new Vector3(0, 0, 0);
+    private static readonly Vector3 START_POSITION_THREE = new Vector3(0, -.6f, -2.644f);
 
-    private static readonly Vector3 START_ROTATION_FOUR = new Vector3(0, 90, 0);
-    private static readonly Vector3 START_POSITION_FOUR = new Vector3(-5, 4, 0);
+    private static readonly Vector3 START_ROTATION_FOUR = new Vector3(0, 0, 0);
+    private static readonly Vector3 START_POSITION_FOUR = new Vector3(1.13f, -.6f, -2.644f);
 
     private static readonly Color BLACK = new Color(0.0f, 0.0f, 0.0f);
     private static readonly Color WHITE = new Color(1.0f, 1.0f, 1.0f);
