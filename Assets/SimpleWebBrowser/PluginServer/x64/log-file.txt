@@ -1,0 +1,266 @@
+2016-09-02 18:03:10,302 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2016-09-02 18:03:10,437 [1] INFO  SharedPluginServer.Program [(null)] - ARGS:
+2017-02-27 17:15:56,645 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:15:56,743 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:48184c0b-8d2c-4074-bc0b-1011dae9f8a3,port:8315
+2017-02-27 17:16:05,327 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 17:16:07,998 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 17:16:08,062 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:9bb0b443-e767-4514-a92c-de677ad8941e,port:8135
+2017-02-27 17:16:11,097 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:29,979 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:30,046 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:35,168 [1] ERROR SharedPluginServer.Program [(null)] - CefRuntime return 0
+2017-02-27 18:24:35,803 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:35,863 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:0fdef6cd-1bda-4815-84fa-aabf5c41bc1b,port:8008
+2017-02-27 18:24:40,837 [7] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2017-02-27 18:24:55,005 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2017-02-27 18:24:55,072 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:500,height:500,url:http://www.google.com,memfile:e3e562f6-4ddb-424d-b290-4f2f7fb63fb8,port:8426
+2017-02-27 18:25:06,324 [9] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 12:04:10,282 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 12:04:10,640 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:4c23305f-6c59-4314-af7d-555a0bba0f5f,port:8245
+2019-11-21 12:06:36,422 [14] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 12:06:43,220 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 12:06:43,312 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:285e0240-9cf2-4167-a81e-4312dacc84ff,port:8172
+2019-11-21 12:06:46,528 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 12:07:06,406 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 12:07:06,501 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:b7317fc0-644c-4f4f-879e-7cebcdbba284,port:8505
+2019-11-21 12:09:33,644 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 12:40:17,683 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 12:40:17,757 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:2c25b995-8c67-4872-81cf-6e08579aa107,port:8573
+2019-11-21 12:40:34,268 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 12:40:45,250 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 12:40:45,310 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:e0a95147-8a68-4f50-a4b7-0270e4303a2d,port:8573
+2019-11-21 12:41:06,124 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 12:56:45,688 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 12:56:45,740 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:b88e33b6-6384-46f3-b3ca-2a99d9176374,port:8425
+2019-11-21 13:00:12,555 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 14:37:48,233 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 14:37:48,296 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:bed42c06-4f1b-4a67-9717-532959c72986,port:8337
+2019-11-21 14:38:15,166 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 14:38:24,003 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 14:38:24,054 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:4f7da416-a99e-49a1-8c00-e79f76509915,port:8572
+2019-11-21 14:38:48,305 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 14:40:42,731 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 14:40:42,817 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:2fbda3b9-95d2-451a-ac52-604b0e2e2dad,port:8370
+2019-11-21 14:41:29,014 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 14:42:29,584 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 14:42:29,633 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:688ae15c-63bc-4167-8b72-d0dbd4b4a235,port:8648
+2019-11-21 14:42:50,015 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 14:51:09,663 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 14:51:09,708 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:15a2bee7-5904-4414-a0a5-456cc1b45a66,port:8397
+2019-11-21 14:52:06,112 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 14:52:14,658 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 14:52:14,721 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:a8df3465-a5d4-4a39-a4fa-05c015be6556,port:8098
+2019-11-21 14:52:47,495 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:04:01,363 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:04:01,412 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:dc752814-f35e-4397-98a1-619234c3eab2,port:8384
+2019-11-21 15:04:19,595 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:04:58,727 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:04:58,797 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:b438fa2b-be1e-4c22-b073-e3852309cab2,port:8397
+2019-11-21 15:05:15,029 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:05:19,532 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:05:19,596 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:af99346f-9f12-4efd-934e-4d1d02705d85,port:8918
+2019-11-21 15:05:26,405 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:09:21,162 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:09:21,228 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:d08fe65a-c663-4b69-96de-ec3849d583ec,port:8042
+2019-11-21 15:09:43,296 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:11:30,089 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:11:30,166 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:768,url:https://www.wikihow.com/Change-a-Tire,memfile:69843cb9-480e-4118-9820-f0b75af133c8,port:8887
+2019-11-21 15:11:59,429 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:15:49,665 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:15:49,752 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:857,url:https://www.wikihow.com/Change-a-Tire,memfile:6d073ebc-3e9f-4b11-b8fa-7adb6c4c86f5,port:8615
+2019-11-21 15:16:27,096 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:16:55,979 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:16:56,041 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:857,height:1024,url:https://www.wikihow.com/Change-a-Tire,memfile:c6955402-7074-4519-a16c-1e8e58b4fb7b,port:8539
+2019-11-21 15:17:30,960 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:17:35,344 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:17:35,398 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:857,height:1024,url:https://www.wikihow.com/Change-a-Tire,memfile:ff344567-a101-4d6a-83c7-f3d8cfe56a23,port:8036
+2019-11-21 15:17:44,875 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:18:13,745 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:18:13,804 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1024,height:1024,url:https://www.wikihow.com/Change-a-Tire,memfile:b747c30e-f071-4a14-85d6-7f760c84bf16,port:8020
+2019-11-21 15:18:37,290 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:18:49,934 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:18:49,996 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1420,height:1024,url:https://www.wikihow.com/Change-a-Tire,memfile:d73068af-0a54-4144-b2f9-34ebaafa6f08,port:8189
+2019-11-21 15:19:00,412 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:20:10,011 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:20:10,059 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1420,height:1600,url:https://www.wikihow.com/Change-a-Tire,memfile:f028982f-cf8c-45cd-8d77-0bd32f6ffddc,port:8158
+2019-11-21 15:20:44,800 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:21:52,219 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:21:52,292 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1200,height:1352,url:https://www.wikihow.com/Change-a-Tire,memfile:e9eacb72-d9f3-4293-8468-99a77e3dcb02,port:8453
+2019-11-21 15:22:15,737 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:22:41,746 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:22:41,816 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:6f45d880-35e9-4a23-ab17-5164747b5704,port:8148
+2019-11-21 15:23:05,153 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:27:24,470 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:27:24,569 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:48c7f5f9-6557-469a-8d07-fc065a0e6652,port:8992
+2019-11-21 15:27:41,424 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:29:59,749 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:29:59,823 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:02de54b8-3b18-4982-8a3a-4438e3d98af6,port:8522
+2019-11-21 15:30:41,504 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:31:35,375 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:31:35,450 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:82f11f42-ce97-4bba-bd9b-3ebb6562cfd2,port:8715
+2019-11-21 15:31:49,470 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:32:03,076 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:32:03,154 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:d4d8ff1c-b2c0-451f-a4b1-931ad0eb3038,port:8909
+2019-11-21 15:32:15,583 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:32:28,831 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:32:28,898 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:51ff8489-287d-4b5a-92d2-0686dd73750e,port:8915
+2019-11-21 15:32:45,479 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:34:29,061 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:34:29,131 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:df907e7c-bd97-4744-af57-720ced0027aa,port:8559
+2019-11-21 15:34:40,198 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:35:43,020 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:35:43,091 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:174574f4-9713-41c9-b26e-e977b24d1856,port:8315
+2019-11-21 15:35:48,076 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:36:11,040 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:36:11,115 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:5bea8265-9c8a-4f22-aa8c-68455933c4af,port:8223
+2019-11-21 15:36:26,924 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:37:42,860 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:37:42,926 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:7892d0a9-9ba7-453d-a4a0-5f16aa371aba,port:8300
+2019-11-21 15:37:57,891 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:40:45,669 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:40:45,751 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:c1aa59e1-abcb-4bbc-9f89-19e38764a752,port:8080
+2019-11-21 15:41:14,804 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:44:19,383 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:44:19,489 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:aaaccbe3-2694-4af3-a998-2e630b7200a7,port:8101
+2019-11-21 15:44:40,038 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:45:45,943 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:45:46,028 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:503fb6f0-a7f6-4e6f-a8ac-f72dacca1e29,port:8030
+2019-11-21 15:46:16,465 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:53:45,021 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:53:45,099 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:27148d23-7539-4ba9-9a32-7166fa328c00,port:8755
+2019-11-21 15:54:47,837 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 15:58:17,443 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 15:58:17,533 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:a8c5b6fb-a094-41d5-80bb-f2c882f1e6d8,port:8068
+2019-11-21 15:58:58,109 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:05:39,138 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:05:39,261 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:8592d9fc-3d4f-4922-88f7-92057a4b582e,port:8092
+2019-11-21 16:06:06,190 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:08:44,716 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:08:44,803 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:92e1c099-a75c-4c33-aa96-4788913be598,port:8346
+2019-11-21 16:09:08,955 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:09:31,079 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:09:31,149 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:432d9135-7db4-48e9-ad85-e2ddea404cd3,port:8569
+2019-11-21 16:10:06,171 [10] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:10:25,824 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:10:25,907 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:2475e538-859d-4ebc-8fbb-cb437868716e,port:8303
+2019-11-21 16:10:35,963 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:10:52,200 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:10:52,287 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:aa866995-68a8-4a04-a744-75bb2b862de8,port:8912
+2019-11-21 16:11:31,826 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:17:00,534 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:17:00,613 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:d2fd512b-8acf-4ede-9242-7997173f3775,port:8999
+2019-11-21 16:17:58,581 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:18:04,098 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:18:04,182 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:298c1d98-adba-4385-9b14-123a379837df,port:8146
+2019-11-21 16:18:26,123 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:22:12,133 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:22:12,220 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:837d7f7c-cf5c-4fc7-a4ca-b82b43463f80,port:8624
+2019-11-21 16:23:01,333 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:24:31,328 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:24:31,423 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:185af514-4d0d-4e34-88d8-5a4f6912d327,port:8958
+2019-11-21 16:24:44,631 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:24:51,026 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:24:51,116 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:cf6857e0-64ce-42b5-800e-29f40f1749f2,port:8838
+2019-11-21 16:25:07,823 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:25:14,253 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:25:14,350 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:9501c540-0961-488f-81ed-6771bc710abc,port:8390
+2019-11-21 16:25:19,219 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:25:34,295 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:25:34,400 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:61cfbed9-c7e8-4bf9-82b3-87f1496dbf83,port:8896
+2019-11-21 16:25:48,422 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:28:06,978 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:28:07,055 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:95bdc3a3-cfd3-47d5-bcb2-a8d091bf69ab,port:8168
+2019-11-21 16:29:03,852 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:33:47,115 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:33:47,182 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:875dc78d-160b-4d60-87e0-c1f73a3a4c38,port:8524
+2019-11-21 16:34:09,127 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:51:59,903 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:51:59,969 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:3668a1a0-8671-478c-a8f0-1a8a561b7e16,port:8284
+2019-11-21 16:58:33,325 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:58:51,593 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:58:51,727 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:d7042b5d-9815-4521-8cbd-7855cd8b010a,port:8050
+2019-11-21 16:58:56,068 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 16:59:10,518 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 16:59:10,624 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:c7ea003a-f62b-49c5-94c3-bdcae68b944d,port:8023
+2019-11-21 16:59:24,851 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:02:10,141 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:02:10,228 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:1b954d96-5231-47b8-922b-7f823ca5d01b,port:8583
+2019-11-21 17:08:48,357 [13] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:09:09,956 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:09:10,015 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:7ffb1e19-c3fc-4687-9b11-ddb06bcd135b,port:8769
+2019-11-21 17:09:53,809 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:14:27,761 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:14:27,855 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:a01066cc-d76e-428a-94c5-ea42f400a5f4,port:8360
+2019-11-21 17:21:12,902 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:21:25,338 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:21:25,408 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:081810f9-29ea-4ca8-a5d1-2d2c4a05a245,port:8176
+2019-11-21 17:21:50,089 [11] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:22:01,392 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:22:01,489 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:937fec00-d291-4720-8f05-f9c14bdd522a,port:8738
+2019-11-21 17:22:18,460 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:23:23,665 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:23:23,753 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:1ed70b2a-ff8a-420f-8c61-8d00d84929ee,port:8329
+2019-11-21 17:23:41,739 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:23:50,934 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:23:51,011 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:4f587d8f-d095-4d87-b390-a7f7c3b4106e,port:8167
+2019-11-21 17:25:29,011 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:28:57,201 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:28:57,310 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:a9b88494-6ce7-4cf1-a497-4da0e169a055,port:8812
+2019-11-21 17:29:14,483 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:32:00,117 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:32:00,206 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:f006d698-0d4c-4432-a2c7-51da02a4955e,port:8700
+2019-11-21 17:32:45,988 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:33:16,885 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:33:16,986 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:7573e467-8968-46d8-98fc-5df93d62cf96,port:8540
+2019-11-21 17:35:00,086 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:36:44,566 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:36:44,629 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:fd06fbf0-66d2-408a-826a-c79232d2e640,port:8396
+2019-11-21 17:37:31,582 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:38:19,875 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:38:19,948 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:fa3d2cce-14b4-4864-8549-61a91e3d42aa,port:8602
+2019-11-21 17:38:32,497 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:39:50,784 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:39:50,886 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:448fbdbc-a457-435f-9d95-d61a25c54e9a,port:8699
+2019-11-21 17:40:17,597 [8] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:41:16,936 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:41:17,020 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:1fea6e12-aa21-4602-867a-0f5904a9156d,port:8133
+2019-11-21 17:41:59,856 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:42:10,732 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:42:10,843 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:d9758158-9457-46b4-b637-20692be55307,port:8853
+2019-11-21 17:42:42,085 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:43:11,416 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:43:11,507 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:dfd4677e-763d-47e9-b556-8a50009fcd23,port:8083
+2019-11-21 17:43:31,104 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:43:35,701 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:43:35,772 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:a325d837-0c43-4b7b-b039-8fe522042059,port:8112
+2019-11-21 17:44:24,429 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:47:02,477 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:47:02,598 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:9429aa4e-f57a-4553-9c9d-0a5cc51e7ae8,port:8633
+2019-11-21 17:47:22,854 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:49:17,255 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:49:17,342 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:6cb67aa9-f1b5-4013-84a8-775e2cfd174e,port:8444
+2019-11-21 17:49:30,023 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-21 17:50:34,703 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-21 17:50:34,774 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:3fc32a10-0d38-45f1-8a62-b37365ac8e76,port:8048
+2019-11-21 17:51:01,628 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 08:53:39,110 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 08:53:39,745 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:774e6283-ad89-4b55-9ffe-ba2fce124b92,port:8316
+2019-11-22 08:54:20,432 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 08:55:30,767 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 08:55:30,825 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:495a768d-15cb-4d30-9afd-b2c67481f576,port:8791
+2019-11-22 08:57:02,985 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 08:57:15,151 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 08:57:15,223 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:61902dd8-7d43-4c40-abe5-2b1b7b33891a,port:8097
+2019-11-22 08:57:26,139 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 08:58:04,530 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 08:58:04,588 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:878a0023-e37f-4197-bc78-2356274bed10,port:8401
+2019-11-22 08:58:38,708 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 09:01:55,055 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 09:01:55,156 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:4088c62b-ed21-497c-8355-4b5daeb839b0,port:8794
+2019-11-22 09:02:35,625 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 09:05:55,059 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 09:05:55,110 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:bf5e3111-5b9b-43b8-b9c4-5d4763eeb6c1,port:8706
+2019-11-22 09:07:29,261 [13] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
+2019-11-22 09:28:04,831 [1] INFO  SharedPluginServer.Program [(null)] - ===============START================
+2019-11-22 09:28:04,887 [1] INFO  SharedPluginServer.Program [(null)] - Starting plugin, settings:width:1000,height:1126,url:https://www.wikihow.com/Change-a-Tire,memfile:48ce1867-1b3e-4c22-ac1a-a246b7e15f24,port:8269
+2019-11-22 09:28:29,540 [4] INFO  SharedPluginServer.App [(null)] - ==============SHUTTING DOWN==========
