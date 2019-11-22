@@ -117,8 +117,8 @@ public class SocialPlatformManager : MonoBehaviour
         floorMesh = roomFloor.GetComponent<MeshRenderer>();
 
         // Set up the local player
-        localTrackingSpace = this.transform.Find("OVRCameraRig/TrackingSpace").gameObject;
-        localPlayerHead = this.transform.Find("OVRCameraRig/TrackingSpace/CenterEyeAnchor").gameObject;
+        localTrackingSpace = this.transform.Find("TrackingSpace").gameObject;
+        localPlayerHead = this.transform.Find("TrackingSpace/CenterEyeAnchor").gameObject;
 
         // make sure only one instance of this manager ever exists
         if (s_instance != null)
@@ -185,7 +185,7 @@ public class SocialPlatformManager : MonoBehaviour
 
         localAvatar = Instantiate(localAvatarPrefab);
         localAvatar.CanOwnMicrophone = false;
-        localTrackingSpace = this.transform.Find("OVRCameraRig/TrackingSpace").gameObject;
+        localTrackingSpace = this.transform.Find("TrackingSpace").gameObject;
 
         localAvatar.transform.SetParent(localTrackingSpace.transform, false);
         localAvatar.transform.localPosition = new Vector3(0, 0, 0);
